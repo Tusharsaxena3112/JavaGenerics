@@ -38,4 +38,11 @@ public class GroceryList {
                 "4--> Close.");
     }
 
+
+    public void showGroceryToUser() {
+        for (int i = 0; i <= groceryList.size(); i++) {
+            System.out.println((i + 1) + " -> " + groceryList.get(i));
+        }
+    }
+
 }
