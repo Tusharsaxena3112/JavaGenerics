@@ -30,4 +30,12 @@ public class GroceryList {
         System.out.println("Your item has been modified");
     }
 
+    public void printingInstructions() {
+        System.out.print("0--> See your Grocery List.\n" +
+                "1--> Add item.\n" +
+                "2--> Remove item.\n" +
+                "3--> Replace item.\n" +
+                "4--> Close.");
+    }
+
 }
